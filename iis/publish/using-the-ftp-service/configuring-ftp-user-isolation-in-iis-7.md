@@ -183,9 +183,9 @@ To create home directories for each user, you first need to create a physical di
 | User Account Types | Physical Home Directory Syntax |
 | --- | --- |
 | Anonymous users | %FtpRoot%\LocalUser\Public |
-| Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\%UserName% |
-| Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\%UserName% |
-| IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\%UserName% |
+| Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\\%UserName% |
+| Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\\%UserName% |
+| IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\\%UserName% |
 
 
 > [!NOTE]
@@ -231,9 +231,9 @@ To create home directories for each user, you first need to create a virtual or 
 | User Account Types | Physical Home Directory Syntax |
 | --- | --- |
 | Anonymous users | %FtpRoot%\LocalUser\Public |
-| Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\%UserName% |
-| Windows domain accounts (requires basic authentication) | %FtpRoot%\%UserDomain%\%UserName% |
-| IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\%UserName% |
+| Local Windows user accounts (requires basic authentication) | %FtpRoot%\LocalUser\\%UserName% |
+| Windows domain accounts (requires basic authentication) | %FtpRoot%\\%UserDomain%\\%UserName% |
+| IIS Manager or ASP.NET custom authentication user accounts | %FtpRoot%\LocalUser\\%UserName% |
 
 
 > [!NOTE]
